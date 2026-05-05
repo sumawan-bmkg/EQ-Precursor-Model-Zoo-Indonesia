@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "station": "GTO",
+    "date": "2021-12-05",
+    "binary_pred": "Earthquake",
+    "binary_conf": 97.20896482467651,
+    "predicted_magnitude": "Medium",
+    "predicted_azimuth": "N",
+    "magnitude_conf": 43.57479512691498,
+    "azimuth_conf": 78.46342325210571,
+    "magnitude_correct": false,
+    "azimuth_correct": false,
+    "both_correct": false,
+    "is_precursor": true,
+    "status": "SUCCESS"
+  },
+  {
+    "id": 2,
+    "station": "TRD",
+    "date": "2019-07-03",
+    "binary_pred": "Earthquake",
+    "binary_conf": 95.83067297935486,
+    "predicted_magnitude": "Medium",
+    "predicted_azimuth": "N",
+    "magnitude_conf": 38.380977511405945,
+    "azimuth_conf": 69.50721740722656,
+    "magnitude_correct": false,
+    "azimuth_correct": false,
+    "both_correct": false,
+    "is_precursor": true,
+    "status": "SUCCESS"
+  }
+]
