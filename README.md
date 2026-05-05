@@ -43,6 +43,7 @@ Berikut adalah ringkasan evolusi model dari Baseline hingga Production Ready.
     model.load_state_dict(torch.load('V9_5_Champion_PIMES/v9_5_physics_best.pth', map_location='cpu'))
     model.eval()
     ```
+<img width="1536" height="2752" alt="poster" src="https://github.com/user-attachments/assets/5335ab4d-0d41-4c2a-8b15-453b314c1fa4" />
 
 ---
 Contact: sumawanbmkg@gmail.com
