@@ -1,4 +1,6 @@
 # Multi-Site STGAT Resilient V2
+
+https://github.com/sumawan-bmkg/MultiSites_Geomagnetic_STGAT
 ### Spatio-Temporal Graph Attention Network with Geodesic Prior & Unit Circle Cosine Similarity Loss
 
 ![Graphical Abstract](graphical_abstract.png)
