@@ -1,0 +1,11 @@
+metric,expected,actual,pass
+P3 Spearman rho,-0.134,-0.134,True
+AZ1 MCE (full network),65.02,65.02283653846153,True
+AZ2 Prior effect %,20.16,20.155123015181868,True
+AZ4 Information gain (bits),0.378,0.37818468600358024,True
+BSE2 MCE (Top-4 rank),27.45,27.45,True
+AZ8Rb binomial p,0.0124,0.012405987285776077,True
+AZ8Rc boot CI lower,0.052,0.0516,True
+AZ17 Path B β (db→spread),0.1228,0.1228,True
+AZ17 Path C β (spread→R),-0.9911,-0.9911,True
+AZ15 shallow t-test p,0.0009,0.0009450634704063673,True

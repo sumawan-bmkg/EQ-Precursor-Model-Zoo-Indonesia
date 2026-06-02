@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-06-02T06:26:08.530389+00:00",
+  "CORE_DISCOVERY_PHASE": "COMPLETE",
+  "CLAIMS_SUPPORTED": 13,
+  "REPRODUCIBILITY": "10/10",
+  "CONFIRMED_FINDINGS": [
+    "Probability precursor signal (P3: rho=-0.134, p<0.001)",
+    "Network amplification (S1: underpowering confirmed)",
+    "Bayesian prior utility (AZ2+AZ4: 20.16%, 0.378 bits)",
+    "Operational azimuth (BSE2: MCE=27.45\u00b0)",
+    "Station reliability predictor (SR: rho=+0.868)",
+    "Consensus dynamics (AZ8Rc: CI=[+0.052,+0.191])",
+    "Depth modulation (AZ15: shallow p=0.0009)",
+    "Temporal spread reduction (AZ17: beta=+0.123***)"
+  ],
+  "REJECTED_HYPOTHESES": [
+    "Prior alignment as within-event mediator (AZ17: path A p=1.0)",
+    "V9.5 detection advantage over V8 (identical paths)"
+  ],
+  "OPEN_QUESTIONS": [
+    "WHY does inter-station spread decrease near shallow earthquakes?",
+    "Will findings replicate on 2027 independent data?"
+  ],
+  "NEXT_ACTIONS": [
+    "Write Paper 2 (storyline frozen)",
+    "Wait for 2027 dataset (R1 protocol ready)",
+    "Do NOT run AZ18-AZ20 or V10-V11"
+  ],
+  "REPRODUCIBILITY_DETAILS": [
+    "PASS: P3 Spearman rho",
+    "PASS: AZ1 MCE (full network)",
+    "PASS: AZ2 Prior effect %",
+    "PASS: AZ4 Information gain (bits)",
+    "PASS: BSE2 MCE (Top-4 rank)",
+    "PASS: AZ8Rb binomial p",
+    "PASS: AZ8Rc boot CI lower",
+    "PASS: AZ17 Path B \u03b2 (db\u2192spread)",
+    "PASS: AZ17 Path C \u03b2 (spread\u2192R)",
+    "PASS: AZ15 shallow t-test p"
+  ]
+}
