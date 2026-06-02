@@ -1,0 +1,4 @@
+stratum,n_events,delta_point,delta_ci95_lo,delta_ci95_hi,delta_excludes_0,corr_point,corr_ci95_lo,corr_ci95_hi,corr_excludes_0,auc_near_vs_far_point,auc_ci95_lo,auc_ci95_hi
+M>=5.0,66,0.001734,0.000271,0.003108,YES,-0.0656,-0.1166,-0.011,YES,0.5267,0.4904,0.5613
+M>=5.5,20,0.001367,-0.001225,0.003977,NO,-0.0228,-0.1081,0.0583,NO,0.5113,0.4355,0.5852
+M>=6.0,6,0.002136,-0.003597,0.007525,NO,-0.0466,-0.1675,0.0735,NO,0.5233,0.3882,0.6341

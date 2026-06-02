@@ -1,0 +1,16 @@
+{
+  "phase": "AZ2",
+  "original_mce": 65.02283653846153,
+  "zero_mce": 74.50474759615385,
+  "random_mce": 78.12826923076923,
+  "zero_effect_pct": 14.582432207596952,
+  "random_effect_pct": 20.155123015181868,
+  "prior_effect_pct": 20.155123015181868,
+  "mad_vs_zero": 17.309963942307693,
+  "mad_vs_random": 22.202283653846152,
+  "kl_vs_zero": 1.8231448366894119,
+  "kl_vs_random": 2.854164156478991,
+  "PRIOR_IMPORTANCE": "PRIOR_STRONG",
+  "PRIOR_CONTRIBUTES": true,
+  "checkpoint_sha256": "1b114ce6cb7e4df111cf0c6bf38274137294b61c8e0dffab4f79950d68251a00"
+}

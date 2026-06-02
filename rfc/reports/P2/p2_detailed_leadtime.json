@@ -1,0 +1,40 @@
+{
+  "timestamp_utc": "2026-06-01T01:36:07.211988+00:00",
+  "checkpoint": "best_entropy",
+  "max_lead_days": 14,
+  "results": {
+    "M>=5.0": {
+      "n_events": 66,
+      "n_records": 910,
+      "mean_near_0_3": 0.393695,
+      "mean_far_11_14": 0.391961,
+      "delta_near_far": 0.001734,
+      "pearson_corr": -0.0656,
+      "wilcoxon_p": 1.0,
+      "effect_size_r": 0.1357,
+      "lead_time_signal": "POSITIVE"
+    },
+    "M>=5.5": {
+      "n_events": 20,
+      "n_records": 275,
+      "mean_near_0_3": 0.393777,
+      "mean_far_11_14": 0.392409,
+      "delta_near_far": 0.001367,
+      "pearson_corr": -0.0228,
+      "wilcoxon_p": 1.0,
+      "effect_size_r": 0.1166,
+      "lead_time_signal": "WEAK"
+    },
+    "M>=6.0": {
+      "n_events": 6,
+      "n_records": 79,
+      "mean_near_0_3": 0.393595,
+      "mean_far_11_14": 0.391459,
+      "delta_near_far": 0.002136,
+      "pearson_corr": -0.0466,
+      "wilcoxon_p": 1.0,
+      "effect_size_r": 0.1238,
+      "lead_time_signal": "WEAK"
+    }
+  }
+}

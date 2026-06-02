@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-06-02T01:12:49.021595+00:00",
+  "best_config": {
+    "n_stations": 4,
+    "stations": "SKB,TRT,SRG,KPY",
+    "scheme": "rank",
+    "mce": 27.45,
+    "acc_30": 0.785,
+    "acc_45": 0.83,
+    "R": 0.9864,
+    "operational_grade": true
+  },
+  "operational_grade_reached": true,
+  "greedy_history": [
+    {
+      "step": 1,
+      "added": "KPY",
+      "subset": [
+        "KPY"
+      ],
+      "mce": 23.878,
+      "operational_grade": true
+    }
+  ],
+  "best_mce": 27.45,
+  "bse_baseline_mce": 32.52,
+  "improvement_vs_bse": 5.07,
+  "improvement_vs_all22": 37.57
+}

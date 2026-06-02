@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-06-02T02:40:49.405841+00:00",
+  "AZ14": {
+    "n_events": 65,
+    "cv_vs_r_rho": 1.0,
+    "cv_vs_r_p": 0.0,
+    "sp_vs_r_rho": 0.9905297008451279,
+    "sp_vs_r_p": 4.759047402038424e-56,
+    "r_delta_mean": 0.0016180645161290323,
+    "r_delta_ci": [
+      0.0009960443548387096,
+      0.002214217741935483
+    ],
+    "r_delta_ci_excl_zero": true,
+    "shallow_cv_trend": 0.14083611111111105,
+    "deep_cv_trend": 0.09773793103448276,
+    "feature_correlations": [
+      {
+        "feature": "magnitude",
+        "rho": 0.05657060267149079,
+        "p": 0.6544448246454853
+      },
+      {
+        "feature": "depth",
+        "rho": -0.04644472661081546,
+        "p": 0.7133339562597937
+      },
+      {
+        "feature": "mean_R",
+        "rho": -0.08193536682329197,
+        "p": 0.5164295693913005
+      },
+      {
+        "feature": "ce_near",
+        "rho": -0.1479773425316843,
+        "p": 0.23944608752998345
+      }
+    ],
+    "dominant_mechanism": "UNDETERMINED"
+  },
+  "AZ15": {
+    "depth_rho": -0.04644472661081546,
+    "depth_p": 0.7133339562597937,
+    "shallow_ttest_p": 0.0009450634704063673,
+    "deep_ttest_p": 0.062140805066011995,
+    "depth_verdict": "DEPTH_MODULATED",
+    "interpretation": "Effect stronger in shallow events, consistent with depth-dependent coupling",
+    "depth_bins": [
+      {
+        "depth_bin": "0-20km",
+        "depth_lo": 0,
+        "depth_hi": 20,
+        "n": 24,
+        "mean_rho": 0.1675,
+        "n_positive": 21,
+        "proportion_positive": 0.875,
+        "binomial_p": 0.0001,
+        "ttest_p": 0.0025,
+        "mean_r_delta": 0.00256
+      },
+      {
+        "depth_bin": "20-50km",
+        "depth_lo": 20,
+        "depth_hi": 50,
+        "n": 12,
+        "mean_rho": 0.0876,
+        "n_positive": 6,
+        "proportion_positive": 0.5,
+        "binomial_p": 0.6128,
+        "ttest_p": 0.1017,
+        "mean_r_delta": 0.00092
+      },
+      {
+        "depth_bin": "50-100km",
+        "depth_lo": 50,
+        "depth_hi": 100,
+        "n": 17,
+        "mean_rho": 0.0872,
+        "n_positive": 7,
+        "proportion_positive": 0.412,
+        "binomial_p": 0.8338,
+        "ttest_p": 0.1385,
+        "mean_r_delta": 0.00095
+      },
+      {
+        "depth_bin": "100-200km",
+        "depth_lo": 100,
+        "depth_hi": 200,
+        "n": 12,
+        "mean_rho": 0.1127,
+        "n_positive": 8,
+        "proportion_positive": 0.667,
+        "binomial_p": 0.1938,
+        "ttest_p": 0.1528,
+        "mean_r_delta": 0.00138
+      }
+    ]
+  }
+}

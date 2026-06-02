@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-06-02T02:27:38.285334+00:00",
+  "AZ8Rb": {
+    "n_events": 65,
+    "n_positive": 42,
+    "proportion_positive": 0.6462,
+    "binomial_p": 0.012405987285776077,
+    "exact_p": 0.012405987285776077,
+    "cohen_h": 0.2966,
+    "wilcoxon_p": 0.0004424959955120002,
+    "verdict": "MARGINALLY_SIGNIFICANT"
+  },
+  "AZ8Rc": {
+    "n_events": 65,
+    "obs_mean_rho": 0.1216,
+    "ci95": [
+      0.0516,
+      0.1906
+    ],
+    "ci99": [
+      0.0297,
+      0.2114
+    ],
+    "ci95_excludes_zero": true,
+    "ci99_excludes_zero": true,
+    "p_above_zero": 0.9993,
+    "p_onesided": 0.0001,
+    "cohen_d": 0.4246,
+    "t_p": 0.0006,
+    "n_bootstrap": 10000,
+    "verdict": "CONFIRMED_95CI"
+  },
+  "AZ13": {
+    "pairwise_spread_rho": 0.3285714285714285,
+    "pairwise_spread_p": 0.23180969720615974,
+    "circ_var_rho": 0.10761023984898661,
+    "circ_var_p": 0.0008497806335023383,
+    "r_near_window": 0.98809,
+    "r_far_window": 0.98656,
+    "r_delta_windows": 0.00153,
+    "window_t_p": 0.0,
+    "prior_kls": {
+      "SKB": 0.9422,
+      "TRT": 1.432,
+      "SRG": 1.2217,
+      "KPY": 1.5602
+    },
+    "dominant_mechanism": "CIRCULAR_VARIANCE"
+  }
+}

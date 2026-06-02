@@ -1,0 +1,33 @@
+{
+  "phase": "AZ5",
+  "timestamp": "2026-06-02T00:26:55.333686+00:00",
+  "checkpoint_sha256": "1b114ce6cb7e4df111cf0c6bf38274137294b61c8e0dffab4f79950d68251a00",
+  "n_multi_events": 832,
+  "all_stations": {
+    "mean_R": 0.6848915865384615,
+    "median_R": 0.68515,
+    "mean_consensus_error_deg": 52.68551682692308,
+    "mean_pairwise_disagreement_deg": 58.03301682692308,
+    "n_high_R_events": 30,
+    "spearman_rho": -0.07085675848901998,
+    "spearman_p": 0.04102103098087698
+  },
+  "best_stations": {
+    "stations": [
+      "KPY",
+      "LPS",
+      "LWA",
+      "SCN",
+      "SKB",
+      "SRG",
+      "TRT"
+    ],
+    "mean_R": 0.9807112980769231,
+    "mean_consensus_error_deg": 32.50814903846154,
+    "n_high_R_events": 832,
+    "spearman_rho": -0.0030213279516191323,
+    "spearman_p": 0.9306575234492102
+  },
+  "SPATIAL_CONSISTENCY_VERDICT": "MODERATE_SPATIAL_CONSISTENCY",
+  "LOCALIZATION_POTENTIAL": false
+}

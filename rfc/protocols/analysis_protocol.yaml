@@ -1,0 +1,63 @@
+metadata:
+  protocol_version: 1.0.0
+  created: '2026-06-01T04:33:53.026536+00:00'
+  status: FROZEN
+  purpose: Pre-registration for 2027 independent validation
+dataset:
+  year: 2026
+  events_total: 832
+  stations_total: 24
+  source_file: 2026_blindtest_sanitized.csv
+event_definition:
+  magnitude_threshold: 5.0
+  magnitude_strata:
+  - 5.0
+  - 5.5
+  - 6.0
+  - 6.5
+temporal_windows:
+  near:
+    start: 0
+    end: 3
+    description: Days before earthquake (T-3 to T0)
+  far:
+    start: 11
+    end: 14
+    description: Days before earthquake (T-14 to T-11)
+  lead_time_range:
+    min: 0
+    max: 14
+bootstrap:
+  iterations: 10000
+  confidence_level: 95
+  method: percentile
+station_analysis:
+  station_count: 24
+  method: leave_one_out
+  aggregation: mean
+metrics:
+  primary_endpoint:
+    name: temporal_signal_strength
+    statistic: spearman_correlation
+    expected_direction: negative
+    interpretation: rho < 0 means probability increases toward earthquake
+  secondary_endpoints:
+  - name: station_heterogeneity
+    statistic: delta_distribution
+    expected_pattern: non_uniform
+  - name: network_level_signal
+    statistic: bootstrap_confidence_interval
+    criterion: CI_excludes_zero
+power_analysis:
+  alpha: 0.05
+  target_power: 0.8
+  observed_effect_size:
+    cohens_d_mean: 0.021
+    cohens_d_range:
+    - 0.015
+    - 0.065
+frozen_settings:
+  checkpoint: best_entropy
+  model_architecture: V3_Model_v8.py
+  input_adapter: hdf5_adapter_v8.py
+  random_seed: 42

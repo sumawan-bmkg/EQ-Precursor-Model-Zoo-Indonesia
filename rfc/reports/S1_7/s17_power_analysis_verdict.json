@@ -1,0 +1,56 @@
+{
+  "phase": "S1.7",
+  "analysis_type": "Statistical Power Analysis (Two-Sample t-test)",
+  "focus_stations": [
+    "LWA",
+    "SRG",
+    "MLB",
+    "SRO"
+  ],
+  "effect_size": {
+    "mean_cohens_d": 0.02062720194379355,
+    "median_cohens_d": 0.018710449352837256,
+    "category": "VERY SMALL"
+  },
+  "power": {
+    "mean_power": 0.053720612725896434,
+    "n_underpowered": 24,
+    "category": "SEVERELY UNDERPOWERED"
+  },
+  "underpowering_hypothesis": "STRONGLY_SUPPORTED",
+  "focus_station_details": {
+    "LWA": {
+      "delta": 0.004889,
+      "cohens_d": 0.04186863064143188,
+      "n_current": 400,
+      "n_required": 10000,
+      "achieved_power": 0.06150194478289006,
+      "is_underpowered": true
+    },
+    "SRG": {
+      "delta": 0.004232,
+      "cohens_d": 0.034175886295728014,
+      "n_current": 400,
+      "n_required": 10000,
+      "achieved_power": 0.052720526189436234,
+      "is_underpowered": true
+    },
+    "MLB": {
+      "delta": -0.004736,
+      "cohens_d": -0.040471714236882575,
+      "n_current": 400,
+      "n_required": 10000,
+      "achieved_power": 0.059827609941787485,
+      "is_underpowered": true
+    },
+    "SRO": {
+      "delta": -0.004682,
+      "cohens_d": -0.06420735052111905,
+      "n_current": 400,
+      "n_required": 7607,
+      "achieved_power": 0.09351128617757509,
+      "is_underpowered": true
+    }
+  },
+  "interpretation": "Stations have very small effect sizes (|d|=0.02) but are severely underpowered (mean power=5.4%). Required sample sizes are 2-10\u00d7 larger than current, confirming underpowering as the explanation for lack of station-level significance."
+}

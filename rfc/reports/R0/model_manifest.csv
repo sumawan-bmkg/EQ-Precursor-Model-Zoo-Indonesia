@@ -1,0 +1,4 @@
+checkpoint,filename,filesize_bytes,filesize_kb,sha256,modified_timestamp
+best_entropy,best_entropy.pth,112262361,109631.21,9c86cde7cae599beff171ca999ab170e2313d88fef3f832dadc94d3ad4fa483e,2026-04-24T10:56:05.422665
+best_validation,v3_v8_best.pth,112262361,109631.21,9c86cde7cae599beff171ca999ab170e2313d88fef3f832dadc94d3ad4fa483e,2026-04-24T10:56:05.422665
+final,final.pth,112267799,109636.52,e59ec4d689a9e355ee1ab1db1233e85be65007931a7715b937dbaabf97051622,2026-04-24T19:11:04.567882

@@ -1,0 +1,25 @@
+{
+  "phase": "AZ4",
+  "timestamp": "2026-06-02T00:08:39.388622+00:00",
+  "checkpoint_sha256": "1b114ce6cb7e4df111cf0c6bf38274137294b61c8e0dffab4f79950d68251a00",
+  "n_samples": 832,
+  "entropy": {
+    "H_true": 4.296507005160553,
+    "H_original": 3.9095661660395935,
+    "H_zero": 3.317097489537729,
+    "H_random": 3.3684453116683573,
+    "H_max": 5.169925001442312
+  },
+  "entropy_reduction_vs_zero": -0.5924686765018645,
+  "entropy_reduction_vs_random": -0.5411208543712362,
+  "mutual_information": {
+    "original": 0.9322355510119824,
+    "zero": 0.5540508650084022,
+    "random": 0.5399638926884526
+  },
+  "information_gain_vs_zero": 0.37818468600358024,
+  "information_gain_vs_random": 0.39227165832352984,
+  "prior_kl_from_uniform": 1.433386610340655,
+  "INFORMATION_GAIN_VERDICT": "SUBSTANTIAL_GAIN",
+  "PRIOR_ADDS_INFORMATION": true
+}

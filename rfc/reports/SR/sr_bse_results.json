@@ -1,0 +1,212 @@
+{
+  "timestamp": "2026-06-02T00:35:07.586430+00:00",
+  "sr_correlations": [
+    {
+      "feature": "dist_from_equator_deg",
+      "spearman_rho": -0.02534113595385868,
+      "p_value": 0.9131756786333164,
+      "significant": false
+    },
+    {
+      "feature": "dist_mean_km",
+      "spearman_rho": -0.27662337662337666,
+      "p_value": 0.22479050345941634,
+      "significant": false
+    },
+    {
+      "feature": "dist_cv",
+      "spearman_rho": 0.4202663423992256,
+      "p_value": 0.05784183435768954,
+      "significant": false
+    },
+    {
+      "feature": "geomag_lat_proxy",
+      "spearman_rho": -0.0935064935064935,
+      "p_value": 0.6868397848627376,
+      "significant": false
+    },
+    {
+      "feature": "pred_std",
+      "spearman_rho": 0.015584415584415586,
+      "p_value": 0.9465439560865643,
+      "significant": false
+    },
+    {
+      "feature": "prior_H_bits",
+      "spearman_rho": 0.0974025974025974,
+      "p_value": 0.6744677255097002,
+      "significant": false
+    },
+    {
+      "feature": "prior_kl_from_uniform",
+      "spearman_rho": -0.09678467545206276,
+      "p_value": 0.6764246456173111,
+      "significant": false
+    },
+    {
+      "feature": "angular_bias_proxy",
+      "spearman_rho": 0.8675324675324675,
+      "p_value": 3.5406211386267126e-07,
+      "significant": true
+    }
+  ],
+  "bse_results": [
+    {
+      "n_stations": 1,
+      "stations": [
+        "SKB"
+      ],
+      "mce": 44.58,
+      "crmse": 70.38,
+      "acc_30": 0.6058,
+      "acc_45": 0.7031,
+      "mean_R": 1.0,
+      "operational_grade": false
+    },
+    {
+      "n_stations": 3,
+      "stations": [
+        "SKB",
+        "TRT",
+        "SRG"
+      ],
+      "mce": 34.14,
+      "crmse": 58.82,
+      "acc_30": 0.756,
+      "acc_45": 0.7957,
+      "mean_R": 0.9952,
+      "operational_grade": false
+    },
+    {
+      "n_stations": 5,
+      "stations": [
+        "SKB",
+        "TRT",
+        "SRG",
+        "KPY",
+        "LPS"
+      ],
+      "mce": 32.72,
+      "crmse": 55.39,
+      "acc_30": 0.7909,
+      "acc_45": 0.8377,
+      "mean_R": 0.9884,
+      "operational_grade": false
+    },
+    {
+      "n_stations": 7,
+      "stations": [
+        "SKB",
+        "TRT",
+        "SRG",
+        "KPY",
+        "LPS",
+        "SCN",
+        "LWA"
+      ],
+      "mce": 32.52,
+      "crmse": 54.95,
+      "acc_30": 0.8137,
+      "acc_45": 0.8438,
+      "mean_R": 0.981,
+      "operational_grade": false
+    },
+    {
+      "n_stations": 10,
+      "stations": [
+        "SKB",
+        "TRT",
+        "SRG",
+        "KPY",
+        "LPS",
+        "SCN",
+        "LWA",
+        "ALR",
+        "CLP",
+        "SBG"
+      ],
+      "mce": 34.39,
+      "crmse": 56.81,
+      "acc_30": 0.7728,
+      "acc_45": 0.8185,
+      "mean_R": 0.9302,
+      "operational_grade": false
+    },
+    {
+      "n_stations": 15,
+      "stations": [
+        "SKB",
+        "TRT",
+        "SRG",
+        "KPY",
+        "LPS",
+        "SCN",
+        "LWA",
+        "ALR",
+        "CLP",
+        "SBG",
+        "GTO",
+        "YOG",
+        "SRO",
+        "LWK",
+        "TNT"
+      ],
+      "mce": 45.78,
+      "crmse": 63.3,
+      "acc_30": 0.3293,
+      "acc_45": 0.7103,
+      "mean_R": 0.7398,
+      "operational_grade": false
+    },
+    {
+      "n_stations": 22,
+      "stations": [
+        "SKB",
+        "TRT",
+        "SRG",
+        "KPY",
+        "LPS",
+        "SCN",
+        "LWA",
+        "ALR",
+        "CLP",
+        "SBG",
+        "GTO",
+        "YOG",
+        "SRO",
+        "LWK",
+        "TNT",
+        "TRD",
+        "PLU",
+        "SMI",
+        "MLB",
+        "AMB",
+        "LUT"
+      ],
+      "mce": 52.66,
+      "crmse": 68.44,
+      "acc_30": 0.2921,
+      "acc_45": 0.3702,
+      "mean_R": 0.6847,
+      "operational_grade": false
+    }
+  ],
+  "best_stations": [
+    "SKB",
+    "TRT",
+    "SRG",
+    "KPY",
+    "LPS",
+    "SCN",
+    "LWA"
+  ],
+  "worst_stations": [
+    "AMB",
+    "LUT",
+    "MLB",
+    "PLU",
+    "SMI"
+  ],
+  "bse_mce_top7": 32.52,
+  "bse_operational_reached": false
+}
