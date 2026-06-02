@@ -1,0 +1,5 @@
+# Model SHA256 — RFC_V1
+9c86cde7cae599beff171ca999ab170e2313d88fef3f832dadc94d3ad4fa483e  best_entropy_v8.pth
+9c86cde7cae599beff171ca999ab170e2313d88fef3f832dadc94d3ad4fa483e  best_validation_v8.pth
+e59ec4d689a9e355ee1ab1db1233e85be65007931a7715b937dbaabf97051622  final_v8.pth
+1b114ce6cb7e4df111cf0c6bf38274137294b61c8e0dffab4f79950d68251a00  v9_5_best.pth
